@@ -1,0 +1,15 @@
+#page /*this is for the whole html document and the default for when not specified, you can still change it by editing them like below*/
+{
+	background-color: grey; /*background color */
+}
+
+#image1
+{
+	display: block; /*makes image act like a block, just like body, that way we can apply margin and other good stuff*/
+	margin: 0 auto;
+	height: auto; /*says the image can calculate its height and width automatically */
+  width: auto; 
+  max-width: 500px; /*applies max bounds so image rezises itself while still mantaining aspect ratio */
+  max-height: 500px;
+  transform: rotate(0deg);
+}
